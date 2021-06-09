@@ -52,3 +52,7 @@ border-radius: 0px 0px 10px 10px;
 
 #contenutoprincipale, footer {background-color: #e6f3ff;
 }
+
+div.container {
+	padding: 0px;
+}
