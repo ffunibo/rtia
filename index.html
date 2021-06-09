@@ -31,9 +31,18 @@ function includeHTML() {
 </script>
 
 <body>
-
-<a w3-include-html=header.html w3-include-html=body.html w3-include-html=indexcont.html w3-include-html=lateral.html w3-include-html=footer.html></a>
-<script>
+<div w3-include-html="header.html"></div>
+  <div class="container">
+<div class="container">
+ 			<div class="row" id="contenutoprincipale">
+ 				<div class="col-9">
+ 					  <div w3-include-html="indexcont.html"></div> 
+          </div>
+ 				<div class="col-3" id="laterale">
+  <div w3-include-html="lateral.html"></div> 
+  <div w3-include-html="footer.html"></div> 
+  
+  <script>
 includeHTML();
 </script>
 
