@@ -1,7 +1,5 @@
-
-.a.nav-link {padding: #0px; color: #black;}
-.nav-item {padding: #0px; color: #black;}
-.nav-link {padding: #0px; color: #black;}
+.nav-link {color: black;
+}
 
 
 ul.nav { background-color: #cce6ff; border-radius: 10px 10px 0px 0px; 
