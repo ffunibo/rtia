@@ -1,4 +1,4 @@
-.nav-link {color: black;
+.nav-link {color: black; padding-left: var(--bs-gutter-x,.75rem);
 }
 
 
