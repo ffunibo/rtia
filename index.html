@@ -46,6 +46,20 @@ function includeHTML() {
 </div>
   <div w3-include-html="footer.html"></div> 
   
+  var width;
+    $(window).resize(function() {
+        width = $(window).width();
+        if (width < 768) {
+            ("<p>CIAO</p>");
+        } else {
+            ("<p>NONCIAO</p>");
+        }
+    });
+    $(window).trigger('resize');
+
+  
+  
+  
   <script>
 includeHTML();
 </script>
