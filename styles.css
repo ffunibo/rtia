@@ -1,3 +1,8 @@
+#giustificato { 
+    text-align:justify;  
+    text-justify:inter-word;
+}
+
 
 .nav-link {color: black; padding-left: var(--bs-gutter-x,.84rem);
 }
