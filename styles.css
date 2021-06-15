@@ -98,7 +98,7 @@ footer {
   width: 50%;
 }
 
-/* The circles on the timeline */
+/* The circles on the timeline 
 .containertl::after {
   content: '';
   position: absolute;
@@ -108,7 +108,12 @@ footer {
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+	
+  background-color: white;
+  border: 4px solid #FF9F55;
 }
+
+*/
 
 /* Place the container to the left */
 .lefttl {
@@ -193,5 +198,8 @@ footer {
   left: 0%;
   }
 
+	div.timelinetl {
+ margin: 15px 0px 15px 0px;
+  }
 
 /*finetimeline*/
