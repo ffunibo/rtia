@@ -75,7 +75,7 @@ footer {
 .timelinetl {
   position: relative;
   max-width: 1200px;
-  margin: 15 auto;
+  margin: auto auto 15 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
