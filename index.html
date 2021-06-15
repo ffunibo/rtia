@@ -48,17 +48,15 @@ function includeHTML() {
   
   
  
-  
-    <script>
-$(window).resize(function () {
-    var width = $(window).width();
-    if (width < 768) {
-        ("<p>Less than 768</p>");
-    } else {
-        ("<p> More than 768</p>");
-    }
+  <script>
+ $(window).resize(function() {
+  if ($(window).width() < 960) {
+     w3-include-html="indexcont.html";
+  }
+ else {
+    w3-include-html="lateral.html";
+ }
 });
-$(window).trigger('resize');
   </script>
   
   
