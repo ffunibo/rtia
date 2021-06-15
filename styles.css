@@ -75,7 +75,7 @@ footer {
 .timelinetl {
   position: relative;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 15 auto;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -196,10 +196,6 @@ footer {
   /* Make all right containers behave like the left ones */
   .righttl {
   left: 0%;
-  }
-
-	div.timelinetl {
- margin: 15px 0px 15px 0px;
   }
 
 /*finetimeline*/
