@@ -46,17 +46,20 @@ function includeHTML() {
 </div>
   <div w3-include-html="footer.html"></div> 
   
-  var width;
-    $(window).resize(function() {
-        width = $(window).width();
-        if (width < 768) {
-            ("<p>CIAO</p>");
-        } else {
-            ("<p>NONCIAO</p>");
-        }
-    });
-    $(window).trigger('resize');
-
+  
+ 
+  
+    <script>
+$(window).resize(function () {
+    var width = $(window).width();
+    if (width < 768) {
+        ("<p>Less than 768</p>");
+    } else {
+        ("<p> More than 768</p>");
+    }
+});
+$(window).trigger('resize');
+  </script>
   
   
   
