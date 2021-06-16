@@ -3,6 +3,9 @@
 p.giustificato {
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+p.cont {
 	padding: 12px 0px 0px 0px;
 }
 
