@@ -4,8 +4,7 @@ p.giustificato {
 	text-align: justify;
 	text-justify: inter-word;
 }
-
-p.cont {
+div.col-lg-9.col-lg-push-3 {
 	padding: 12px 0px 0px 0px;
 }
 
