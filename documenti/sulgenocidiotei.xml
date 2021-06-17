@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> On Genocide </title>
+            <author> Sartre, Jean-Paul </author>
+            <editor> Ferretti, Francesco </editor>
+         </titleStmt>
+         <editionStmt>
+            <p> Attempt to digitalize the first part of the essay </p>
+         </editionStmt>
+         <extent>between 1 and 2 Mb</extent>
+         <publicationStmt>
+            <distributor>Università degli Studi di Bologna</distributor>
+         </publicationStmt>
+         <seriesStmt>
+            <p> Russell Tribunale Documents </p>
+         </seriesStmt>
+         <notesStmt>
+            <note> First paragraphs of the essay </note>
+         </notesStmt>
+         <sourceDesc>
+            <p> Several websites online host the same essay </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="LR">
+                  <persName sameAs="http://viaf.org/viaf/46753294/">Lemkin, Raphaël
+                     1900-1959</persName>
+                  </person>
+                  <person xml:id="HA">
+                     <persName sameAs="http://viaf.org/viaf/38190770/">Hitler, Adolf,
+                        1889-1945.</persName>
+                     </person>
+                     <person xml:id="DV">
+                        <persName sameAs="http://viaf.org/viaf/59096211/">Dedijer, Vladimir</persName>
+                     </person>
+                     <person xml:id="USC">
+                        <persName>Americans</persName>
+                     </person>
+                     <person xml:id="VMC">
+                        <persName>Vietnamese</persName>
+                     </person>
+                     <person xml:id="JW">
+                        <persName>Jews</persName>
+                     </person>
+                  </listPerson>
+                  <listOrg>
+                     <org xml:id="USARMY">
+                        <orgName sameAs="http://viaf.org/viaf/135579316/">United States. Army </orgName>
+                     </org>
+                  </listOrg>
+               </particDesc>
+               <calendarDesc>
+                  <calendar xml:id="cal_AD">
+                     <p>Anno Domini (Christian Era)</p>
+                  </calendar>
+               </calendarDesc>
+               <settingDesc>
+                  <listPlace>
+                     <place sameAs="http://viaf.org/">
+                        <country xml:id="USA">United States</country>
+                        <country xml:id="EU">Europe</country>
+                        <country xml:id="AR">Argentina</country>
+                        <country xml:id="GB">Great Britain</country>
+                        <country xml:id="VN">Vietnam</country>
+                        <country xml:id="VDC">Vietnam (Democratic Republic)</country>
+                        <settlement xml:id="TH">The Hague</settlement>
+                        <settlement xml:id="GNV">Geneva</settlement>
+                     </place>
+                  </listPlace>
+               </settingDesc>
+               <langUsage>
+                  <language ident="en-GB" usage="100">British English</language>
+               </langUsage>
+            </profileDesc>
+         </teiHeader>
+         <text>
+            <body>
+               <div>
+                  <p>
+                     The word ‘genocide’ has not been in existence for very long: it was the jurist <persName ref="#LR">Lemkin</persName> who coined it between the two world wars. The thing itself is as old as humanity and there has never been a society whose structure has preserved it from committing this crime. All genocide is a product of history and it always carries the signs of the society from which it springs. The case which we have to judge concerns the <placeName ref="#USA">largest contemporary capitalist power</placeName>. It is as such that we must attempt to consider it; in other words, inasmuch as it expresses the economic structure, the political aims and the contradictions of that power.In particular, we must try to understand whether there is an intention of genocide in the war that the <orgName ref="#USARMY">American government</orgName> is fighting against <placeName ref="VN">Vietnam</placeName>. Article 2 of the Convention of <date>1948</date> defines genocide on the basis of intention. The Convention was tacitly referring to very recent history. <persName ref="HA">Hitler</persName> had declared a deliberate plan to exterminate the <persName ref="JW">Jews</persName>; he did not conceal the fact that he was using genocide as a political tactic. The <persName ref="JW">Jew</persName> had to be put to death, wherever he came from, not because he had taken up arms or had joined a resistance movement, but just because he was a <persName ref="JW">Jew</persName>. The <orgName ref="#USARMY">American government</orgName>, on the other hand, has made no such clear declarations. It even averred that it was going to the rescue of its allies, the <placeName ref="VN">South Vietnamese</placeName>, who had been attacked by the Communists from the <placeName ref="VDC">North</placeName>. Is it possible for us, in objectively studying the facts, to unveil their hidden intention? And can we, after this examination, say that the <orgName ref="#USARMY">armed forces of the USA</orgName> are killing <persName ref="VMC">Vietnamese</persName> in <placeName ref="VN">Vietnam</placeName> for the simple reason that they are <persName ref="VMC">Vietnamese</persName>?
+                  </p>
+                  <p>
+                     This can only be established after a look at history: the structures of war change at the same time as those of society. From <date>1860</date> to this day, military motives and objectives have undergone a profound change and the end result of this metamorphosis is precisely the war of ‘example’ that the <placeName ref="USA">USA</placeName> is waging in <placeName ref="VN">Vietnam</placeName>.
+                  </p>
+                  <p>
+                     <date>1856</date>: Treaties for the preservation of the property of neutrals;
+                  </p>
+                  <p>
+                     <date>1864</date>: At <placeName ref="GNV">Geneva</placeName>, an attempt to protect the wounded;
+                  </p>
+                  <p>
+                     <date>1899</date>, <date>1907</date>: At <placeName ref="TH">The Hague</placeName>, two Conferences attempting to
+                     control conflicts.
+                  </p>
+                  <p>It is no coincidence if jurists and governments have multiplied agreements to ‘humanize war’ on the eve of two of the most horrifying massacres that man has ever known. <persName ref="#DV">Vladimir Dedijer</persName> has shown very well in his book On Military Conventions that capitalist societies were all simultaneously creating this monster, total war, which expresses their real nature. This is because:
+                  <list rend="numbered">
+                     <item>Competition between the industrialized nations fighting over new markets engenders a permanent hostility which is expressed, both in theory and in practice, by what is called ‘bourgeois nationalism’.</item>
+                     <item>The development of industry, which is the source of these antagonisms, enables them to be resolved at the expense of one competitor, in the production of more and more massively lethal arms. The result of this evolution is that it becomes less and less possible to distinguish the rear from the front line, between the civilian population and the soldiers.</item>
+                     <item>More military objectives appear, near to the cities. The factories, even if they are not working for the armies, do comprise the economic potential of a country. Therefore, the destruction of this potential becomes the aim of the war and the means by which it may be won.</item>
+                     <item>
+                        For this reason, everybody is mobilized: the peasant fights at the front, the labourer is a soldier in the second line, the wives of the peasants replace the men in the fields. In the total effort of one country against another, the worker tends to become a fighter because, in the end, it is the strongest economic power that has the greatest chance of winning.
+                     </item>
+                     <item>
+                        Finally, the democratic evolution of the bourgeois countries interests the masses in politics. The masses do not control the decisions of the state, but gradually gain a self-awareness. When a war comes, they no longer feel detached. Thus, reappraised and often deformed by propaganda, war becomes an ethical decision of the whole community. In every nation engaged in war manipulation makes all, or nearly all, the citizens the enemies of the other nation. In this way war becomes total.
+                     </item>
+                     <item>
+                        These same technologically advanced societies do not cease to enlarge upon the field of competition in multiplying the means of communication. The well-known ‘One World’ of the <persName ref="#USC">Americans</persName> already existed at the end of the nineteenth century when the wheat from <placeName ref="#AR">Argentina</placeName> managed to ruin the farmers in <placeName ref="#GB">Britain</placeName>. War is total not only because all the members of one community are at war against the members of another, but because its risk embraces the whole world.
+                     </item>
+                  </list>
+               </p>
+               <p>
+                  Therefore the war of bourgeois nations – of which the conflict of <date>1914</date> is the first example, but which had been menacing <placeName ref="EU">Europe</placeName> since <date>1900</date> – is not the invention of one man or one government, but the simple necessity since the beginning of the century for a totalitarian effort against those who wish to carry on their politics by other means or methods. In other words, the option is clear; no war or total war. It was total war that our fathers fought. And the governments – who could see it coming but did not have the intelligence or the courage to avoid it – tried vainly to humanize it.
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
