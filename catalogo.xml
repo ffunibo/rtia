@@ -6,15 +6,14 @@
 		<nome>Sartre</nome>
 		<tipo>protagonista</tipo>
 		<rif>/rtia/protagonisti/sartre.html</rif>
-		<des>bbb.html</des>
 		<ext>http://viaf.org/viaf/76322562/</ext>
 	</item>
 	<item>
 		<id>2</id>
-		<tipo>protagonista</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
+		<nome>Sul genocidio</nome
+		<tipo>documento</tipo>
+		<rif>/rtia/documenti/sulgenocidio.html</rif>
+		<ext>https://newleftreview.org/issues/i48/articles/jean-paul-sartre-genocide</ext>
 	</item>
 	<item>
 		<id>3</id>
