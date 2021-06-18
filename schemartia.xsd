@@ -1,3 +1,5 @@
+
+
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="catalogo">
     <xs:complexType>
@@ -6,9 +8,19 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:byte" name="id"/>
+              <xs:element type="xs:string" name="nome"/>
               <xs:element type="xs:string" name="tipo"/>
+              <xs:element type="xs:string" name="idautore" minOccurs="0"/>
+              <xs:element name="descrittori" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="dc"/>
+                    <xs:element type="xs:string" name="tei" minOccurs="0"/>
+                    <xs:element type="xs:string" name="iml" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
               <xs:element type="xs:string" name="rif"/>
-              <xs:element type="xs:string" name="des"/>
               <xs:element type="xs:string" name="ext"/>
             </xs:sequence>
           </xs:complexType>
@@ -17,3 +29,4 @@
     </xs:complexType>
   </xs:element>
 </xs:schema>
+
