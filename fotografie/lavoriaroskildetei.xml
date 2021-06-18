@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="lavoriaroskildetei"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>Lavori a Roskilde DK</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1024 x 548</p>
+    <msDesc>Sessione finale del Tribunale Russell a Roskilde</msDesc>
+    <sourceDesc>
+ <publisher>Getty Images</publisher>
+  <date>1967</date>
+</sourceDesc>
+    </sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Default"><label>Explanation of this annotation category...</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition><rendition xml:id="pers"><label></label><code rend="rectangle" lang="text/css">color: #ff0000</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.2" notAfter="2021-06-18T11:00:19">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://hcmc.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="img1.jpg.jpeg" width="1024px" height="548px"></graphic><zone xml:id="imtArea_0" rendition="pers" ulx="354" uly="199" lrx="481" lry="340" rend="visible"></zone><zone xml:id="imtArea_1" rendition="pers" ulx="58" uly="206" lrx="187" lry="348" rend="visible"></zone><zone xml:id="imtArea_2" rendition="pers" ulx="246" uly="201" lrx="356" lry="334" rend="visible"></zone><zone xml:id="imtArea_3" rendition="pers" ulx="606" uly="98" lrx="754" lry="281" rend="visible"></zone><zone xml:id="imtArea_4" rendition="pers" ulx="876" uly="115" lrx="1029" lry="310" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#imtArea_0" type="imtAnnotation"><head>Sartre</head><div><p>Sartre</p></div></div><div corresp="#imtArea_1" type="imtAnnotation"><head>Beauvoir</head><div><p>Beauvoir</p></div></div><div corresp="#imtArea_2" type="imtAnnotation"><head>Unknown</head><div><p>unknown</p></div></div><div corresp="#imtArea_3" type="imtAnnotation"><head>Dedijer</head><div><p>Dedijer</p></div></div><div corresp="#imtArea_4" type="imtAnnotation"><head>Schwartz</head><div><p>Schwartz</p></div></div></div></body></text></TEI>
