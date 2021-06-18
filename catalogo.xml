@@ -3,10 +3,11 @@
          xsi:noNamespaceSchemaLocation="schemartia.xsd">
 	<item>
 		<id>1</id>
+		<nome>Sartre</nome>
 		<tipo>protagonista</tipo>
-		<rif>aaa.html</rif>
+		<rif>/rtia/protagonisti/sartre.html</rif>
 		<des>bbb.html</des>
-		<ext>ccc.html</ext>
+		<ext>http://viaf.org/viaf/76322562/</ext>
 	</item>
 	<item>
 		<id>2</id>
