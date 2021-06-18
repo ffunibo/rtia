@@ -1,0 +1,16 @@
+
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:doc="http://ffunibo.github.io/rtia/">
+
+<rdf:Description
+rdf:about="http://ffunibo.github.io/rtia/documenti/sulgenocidio.html">
+  <doc:author>Jean Paul Sartre</cd:author>
+  <doc:authorid>1</cd:authorid>
+  <doc:country>GB</cd:country>
+  <doc:year>1968</cd:year>
+</rdf:Description>
+
+</rdf:RDF> 
