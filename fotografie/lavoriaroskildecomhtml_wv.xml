@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lavoriaroskildecomhtml_wv.xsl"?>
 <?oasis-schema href="imt_1_8.rng" type="application/xml"?>
 <?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="lavoriaroskildetei"><teiHeader>
