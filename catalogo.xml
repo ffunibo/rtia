@@ -1,6 +1,7 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
-<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xsi:noNamespaceSchemaLocation="schemartia.xsd">
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemartia.xsd">
 	<item>
 		<id>1</id>
 		<nome>Sartre</nome>
@@ -13,8 +14,10 @@
 		<nome>Sul genocidio</nome>
 		<tipo>documento</tipo>
 		<idautore>1</idautore>
-		<dc>/rtia/documenti/sulgenocidiodc.xml</dc>
-		<tei>/rtia/documenti/sulgenocidiotei.xml</tei>
+		<descrittori>
+			<dc>/rtia/documenti/sulgenocidiodc.xml</dc>
+			<tei>/rtia/documenti/sulgenocidiotei.xml</tei>
+		</descrittori>
 		<rif>/rtia/documenti/sulgenocidio.html</rif>
 		<ext>https://newleftreview.org/issues/i48/articles/jean-paul-sartre-genocide</ext>
 	</item>
@@ -22,10 +25,13 @@
 		<id>3</id>
 		<nome>Lavori a Roskilde, DK</nome>
 		<tipo>fotografia</tipo>
-		<idautore></idautore>
-		<dc>/rtia/fotografie/lavoriaroskildedc.xml</dc>
-		<iml>/rtia/fotografie/lavoriaroskildetei.xml</iml>
+		<idautore />
+		<descrittori>
+			<dc>/rtia/fotografie/lavoriaroskildedc.xml</dc>
+			<iml>/rtia/fotografie/lavoriaroskildetei.xml</iml>
+		</descrittori>
 		<rif>/rtia/fotografie/lavoriaroskilde.html</rif>
 		<ext>https://www.gettyimages.ch/detail/nachrichtenfoto/the-end-of-the-session-at-the-russell-tribunal-in-nachrichtenfoto/104407493?language=it</ext>
 	</item>
 </catalogo>
+
