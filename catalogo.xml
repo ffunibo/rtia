@@ -12,77 +12,20 @@
 		<id>2</id>
 		<nome>Sul genocidio</nome
 		<tipo>documento</tipo>
+		<idautore>1</idautore>
+		<dc>/rtia/documenti/sulgenocidiodc.xml</dc>
+		<tei>/rtia/documenti/sulgenocidiotei.xml</tei>
 		<rif>/rtia/documenti/sulgenocidio.html</rif>
 		<ext>https://newleftreview.org/issues/i48/articles/jean-paul-sartre-genocide</ext>
 	</item>
 	<item>
 		<id>3</id>
-		<tipo>protagonista</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>4</id>
-		<tipo>documento</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>5</id>
-		<tipo>documento</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>6</id>
-		<tipo>documento</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>7</id>
+		<nome>Lavori a Roskilde, DK</nome
 		<tipo>fotografia</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>8</id>
-		<tipo>fotografia</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>9</id>
-		<tipo>fotografia</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>10</id>
-		<tipo>pubblicazione</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>11</id>
-		<tipo>pubblicazione</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
-	</item>
-	<item>
-		<id>12</id>
-		<tipo>pubblicazione</tipo>
-		<rif>aaa.html</rif>
-		<des>bbb.html</des>
-		<ext>ccc.html</ext>
+		<idautore></idautore>
+		<dc>/rtia/fotografie/lavoriaroskildedc.xml</dc>
+		<iml>/rtia/fotografie/lavoriaroskildetei.xml</iml>
+		<rif>/rtia/fotografie/lavoriaroskilde.html</rif>
+		<ext>https://www.gettyimages.ch/detail/nachrichtenfoto/the-end-of-the-session-at-the-russell-tribunal-in-nachrichtenfoto/104407493?language=it</ext>
 	</item>
 </catalogo>
