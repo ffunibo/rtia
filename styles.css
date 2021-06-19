@@ -64,6 +64,11 @@ body {
 #laterale {
 	background-color: #e6f3ff;
 	font-family: 'Poppins';
+	
+}
+
+
+#laterale.col-lg-3.col-lg-pull-9 {
 	padding: 0px 0px 10px 0px;
 }
 
