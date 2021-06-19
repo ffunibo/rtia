@@ -4,7 +4,7 @@
 
 .bottomright1 {
   position: absolute;
-  bottom: 10px;
+  bottom: 16px;
   right: 8px;
   font-size: 13px;
   opacity : 1;
@@ -16,7 +16,7 @@ border-radius: 5px;
 
 .bottomright2 {
   position: absolute;
-  bottom: 49px;
+  bottom: 54px;
   right: 8px;
   font-size: 13px;
   opacity : 1;
@@ -28,7 +28,7 @@ border-radius: 5px;
 
 .bottomright3 {
   position: absolute;
-  bottom: 88px;
+  bottom: 94px;
   right: 8px;
   font-size: 13px;
   opacity : 1;
