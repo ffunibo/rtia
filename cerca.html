@@ -4,6 +4,25 @@
 <html>
 	<head>
 		<script src="scriptinclude.js"></script>
+		 <script language="javascript" type="text/javascript">
+    function dynamicdropdown(listindex)
+    {
+        switch (listindex)
+        {
+        case "manual" :
+            document.getElementById("status").options[0]=new Option("Seleziona lingua","");
+            document.getElementById("status").options[1]=new Option("Lingua italiana","open");
+            document.getElementById("status").options[2]=new Option("Lingua inglese","delivered");
+            break;
+        case "online" :
+            document.getElementById("status").options[0]=new Option("Seleziona colore","");
+            document.getElementById("status").options[1]=new Option("Bianco e Nero","open");
+            document.getElementById("status").options[2]=new Option("Colori","delivered");
+            break;
+        }
+        return true;
+    }
+    </script>
 	</head>
 	<body>
 		<div w3-include-html="header.html"></div>
@@ -11,7 +30,88 @@
 			<div class="container">
 				<div class="row" id="contenutoprincipale">
 					<div class="col-lg-9 col-lg-push-3">
-						<div w3-include-html="cercacont.html"></div>
+
+   
+    <h2>Ricerca dettagliata</h2>
+            <form action="" id="cercaform" style="text-align:center;">
+  <select name="tipcer" id="text">
+    <option value="contiene">Contiene</option>
+    <option value="noncontiene">Non contiene</option>
+    <option value="iniziacon">Inizia con</option>
+    <option value="esatta">Esatta</option>
+  </select>
+  <input type="text" id="cer" name="cer">
+ <br>
+ <input type="checkbox" id="e" name="e" value="e">
+  <label for="e"> E </label> /
+  <input type="checkbox" id="o" name="o" value="o">
+  <label for="o"> O </label><br>
+  
+    <select name="tipcer" id="text">
+    <option value="contiene">Contiene</option>
+    <option value="noncontiene">Non contiene</option>
+    <option value="iniziacon">Inizia con</option>
+    <option value="esatta">Esatta</option>
+  </select>
+  <input type="text" id="cer" name="cer">
+ <br>
+ <input type="checkbox" id="e" name="e" value="e">
+  <label for="e"> E </label> /
+  <input type="checkbox" id="o" name="o" value="o">
+  <label for="o"> O </label><br>
+  
+    <select name="tipcer" id="text">
+    <option value="contiene">Contiene</option>
+    <option value="noncontiene">Non contiene</option>
+    <option value="iniziacon">Inizia con</option>
+    <option value="esatta">Esatta</option>
+  </select>
+  <input type="text" id="cer" name="cer">
+ <br>
+<br>
+   
+    <div class="category_div" id="category_div">Tipologia:
+        <select id="source" name="source" onchange="javascript: dynamicdropdown(this.options[this.selectedIndex].value);">
+        <option value="">Seleziona</option>
+        <option value="manual">Documento</option>
+        <option value="online">Fotografia</option>
+        </select>
+    </div><br>
+    <div class="sub_category_div" id="sub_category_div">Specifiche:
+        <script type="text/javascript" language="JavaScript">
+        document.write('<select name="status" id="status"><option value="">Seleziona Tipologia</option></select>')
+        </script>
+        <noscript>
+        <select id="status" name="status">
+            <option value="open">OPEN</option>
+            <option value="delivered">DELIVERED</option>
+        </select>
+        </noscript>
+    </div>
+    <br>
+    <label>Autore</label>
+  
+    <select name="tipcer" id="text">
+    <option value="contiene">JP Sartre</option>
+    <option value="noncontiene">B Russell</option>
+    <option value="iniziacon">US Army</option>
+  </select>
+  <br><br>
+  <label>Archivio</label>
+    <select name="tipcer" id="text">
+    <option value="contiene">L'unità</option>
+    <option value="noncontiene">Senato</option>
+    <option value="iniziacon">Lelio Basso</option>
+  </select>
+    
+    
+    
+    <br>
+    <br><input type="submit">
+         
+    
+						
+						
 					</div>
 					<div class="col-lg-3 col-lg-pull-9" id="laterale">
 						<div w3-include-html="lateralcerca.html"></div>
