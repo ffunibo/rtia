@@ -4,16 +4,18 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:dcterms="http://purl.org/dc/terms/">
-<dc:title>On Genocide</dc:title>
-<dc:creator>Sartre, Jean-Paul</dc:creator>
-<dc:subject>Law</dc:subject>
-<dc:description>Brief history of genocide and US behaviour in Vietnam War</dc:description>
-<dc:date xsi:type="dcterms:W3CDTF">1968</dc:date>
-<dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
-<dc:format xsi:type="dcterms:IMT">plain</dc:format>
-<dc:format xsi:type="dcterms:IMT">text</dc:format>
-<dc:source xsi:type="dcterms:URI">https://newleftreview.org/issues/i48/articles/jean-paul-sartre-genocide</dc:source>
-<dc:source xsi:type="dcterms:URI">https://www.spokesmanbooks.com/Spokesman/PDF/93Sartre.pdf</dc:source>
-<dc:language xsi:type="dcterms:ISO639-2">english</dc:language>
-
+<collection xml:id="rtia">
+		<item  xml:id="1">
+      <dc:title>On Genocide</dc:title>
+      <dc:creator xml:id="2" xsi:type="mp:viaf" mp:ref="https://viaf.org/viaf/76322562/">Sartre, Jean-Paul</dc:creator>
+      <dc:subject>Law</dc:subject>
+      <dc:description>Brief history of genocide and US behaviour in Vietnam War</dc:description>
+      <dc:date xsi:type="dcterms:W3CDTF">1968</dc:date>
+      <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+      <dc:format xsi:type="dcterms:IMT">plain</dc:format>
+      <dc:format xsi:type="dcterms:IMT">text</dc:format>
+      <dc:source xsi:type="dcterms:URI">https://newleftreview.org/issues/i48/articles/jean-paul-sartre-genocide</dc:source>
+      <dc:source xsi:type="dcterms:URI">https://www.spokesmanbooks.com/Spokesman/PDF/93Sartre.pdf</dc:source>
+      <dc:language xsi:type="dcterms:ISO639-2">english</dc:language>
+  </item>
 </metadata>
